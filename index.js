@@ -6,13 +6,14 @@ function makeRows(rows, cols) {
   for (c = 0; c < (rows * cols); c++) {
     let cell = document.createElement("div");
     container.appendChild(cell).className = "grid-item";
-    document.querySelector("div.grid-item").addEventListener('mouseover', () => {
-        document.querySelector("div.grid-item").classList.add(".hoverd");
-    });
   };
 };
 
 makeRows(16, 16);
+
+document.querySelectorAll('div .grid-item').forEach(grid => grid.addEventListener("mouseover", function(e) {
+  this.style.backgroundColor="Black"
+}));
 
 
 
