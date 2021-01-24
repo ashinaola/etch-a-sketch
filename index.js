@@ -15,6 +15,9 @@ document.querySelectorAll('div .grid-item').forEach(grid => grid.addEventListene
   this.style.backgroundColor="Black"
 }));
 
+document.querySelector('#clear').addEventListener("click", function() {
+  document.querySelectorAll('div .grid-item').forEach(grid2 => grid2.style.backgroundColor = "White");
+});
 
 
 
