@@ -30,13 +30,12 @@
   }
 
   .hoverd {
-      background-color: black;
+    background-color: black;
   }
 
   .buttons {
-    position: relative;
-    left: 47%;
-    top: 470px;
+    display: inline-block;
+    margin: auto;
     border: none;
     border-radius: 12px;
     padding: 10px;
