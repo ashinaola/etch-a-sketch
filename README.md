@@ -1,2 +1,2 @@
 # etch-a-sketch
-The Odin Project assignment: Etch-a-Sketch
+Online etch-a-sketch app.  Can use to draw different shapes and figures.  
