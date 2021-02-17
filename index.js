@@ -24,7 +24,7 @@ document.querySelector('#clear').addEventListener("click", function() {
 
 document.querySelector('#big').addEventListener("click", function() {
   document.querySelector("#container").innerHTML = "";
-  makeRows(48,48);
+  makeRows(20,20);
   color();
 });
 
